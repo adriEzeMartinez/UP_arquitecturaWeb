@@ -1,16 +1,23 @@
 {
-    "name": "sample-api",
-    "version": "1.0.0",
-    "description": "",
-    "main": "index.js",
-    "scripts": {
-      "start":"node app.js"
-    },
-    "keywords": [],
-    "author": "",
-    "license": "GPL-3.0-only",
-    "dependencies": {
-      "express": "^4.18.2"
-    }
-  }
-  
+  "name": "sample-api",
+  "version": "1.0.0",
+  "description": "teaching repo",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "GPL-3.0-only",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adriEzeMartinez/UP_arquitecturaWeb.git"
+  },
+  "bugs": {
+    "url": "https://github.com/adriEzeMartinez/UP_arquitecturaWeb/issues"
+  },
+  "homepage": "https://github.com/adriEzeMartinez/UP_arquitecturaWeb#readme"
+}
