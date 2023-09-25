@@ -14,6 +14,10 @@ app.get('/alumno', (req, res) => {
     res.send('Soy un alumno');
   });
 
+  app.get('/quien_sos', (req, res) => {
+    res.send('Soy un alumno');
+  });
+
 app.listen(port, () => {
   console.log(`El servidor se encuentra corriendo en el puerto ${port}`);
 });
