@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Citas de Homero</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>🧔 La Página de Homero 🧠</h1>
+        <img src="https://upload.wikimedia.org/wikipedia/en/0/02/Homer_Simpson_2006.png" alt="Homero Simpson" class="homero">
+        <p>Nombre: <strong>Homero J. Simpson</strong></p>
+        <p>Ocupación: Inspector de Seguridad Nuclear (Sector 7G)</p>
+        <button id="btnCita">Obtener cita 🍩</button>
+        <p id="cita"></p>
+    </div>
+
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+</html>
